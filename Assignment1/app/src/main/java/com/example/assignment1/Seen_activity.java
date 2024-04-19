@@ -1,17 +1,12 @@
-package com.example.rectangles;
+package com.example.assignment1;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -47,14 +42,9 @@ public class Seen_activity extends AppCompatActivity {
                 constraintLayout.removeAllViews();
                 constraintLayout.addView(seen_view);
             }
-            else if(count.get() ==3)
-            {
-                Intent intent = new Intent(Seen_activity.this, Challenge_activity.class);
-                startActivity(intent);
-            }
             else
             {
-                Intent intent = new Intent(Seen_activity.this, Finish_activity.class);
+                Intent intent = new Intent(Seen_activity.this, Challenge_activity.class);
                 startActivity(intent);
             }
             count.getAndIncrement();

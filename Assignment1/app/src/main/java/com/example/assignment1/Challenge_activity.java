@@ -1,4 +1,4 @@
-package com.example.rectangles;
+package com.example.assignment1;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.assignment1.R;
 
 public class Challenge_activity extends AppCompatActivity {
 

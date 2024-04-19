@@ -1,4 +1,4 @@
-package com.example.rectangles;
+package com.example.assignment1;
 
 import android.content.Intent;
 import android.os.Bundle;
