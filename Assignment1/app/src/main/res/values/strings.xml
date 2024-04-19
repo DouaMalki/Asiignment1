@@ -1,3 +1,63 @@
 <resources>
-    <string name="app_name">Assignment1</string>
+    <string name="app_name">Rectangles</string>
+    <string name="challenge_introduction">Let\'s conquer this challenge, heroes!</string>
+    <string name="submit">SUBMIT</string>
+    <string name="Q1">4- The school track is a rectangle with a perimeter of 200 meters. If one side of the track is 40 meters long, what is the length of the opposite side?</string>
+    <string name="Q2">3- A square has all sides the same length. If the perimeter of a square is 36 cm, what is the length of each side of the square?</string>
+    <string name="Q3">1- A rectangular swimming pool is 25 meters long. If the area of the pool is 300 sq m, what is the width of the pool?</string>
+    <string name="Q4">2- A rectangular garden has a length of 15 meters and a width of 8 meters. What is the area of the garden in square meters?</string>
+    <string-array name="question1_choices">
+        <item>"10"</item>
+        <item>"11"</item>
+        <item>"12"</item>
+        <item>"13"</item>
+    </string-array>
+
+    <string-array name="question2_choices">
+        <item>"120"</item>
+        <item>"100"</item>
+        <item>"12"</item>
+        <item>"10"</item>
+    </string-array>
+
+    <string-array name="question3_choices">
+        <item>"6"</item>
+        <item>"9"</item>
+        <item>"11"</item>
+        <item>"5"</item>
+    </string-array>
+
+    <string-array name="question4_choices">
+        <item>"44"</item>
+        <item>"12"</item>
+        <item>"40"</item>
+        <item>"100"</item>
+    </string-array>
+
+    <string name="Correct">"Correct"</string>
+    <string name="Incorrect">"Incorrect"</string>
+    <string name="click_me">Click me!\n</string>
+    <string name="lets_learn_rectangles">LETS LEARN RECTANGLES!</string>
+
+
+    <string name="what_is_rectangle">What is Rectangle?</string>
+    <string name="rectangle_description">A rectangle is a closed 2-D shape, having 4 sides, 4 corners, and 4 right angles (90°). The opposite sides of a rectangle are equal and parallel. Since, a rectangle is a 2-D shape, it is characterized by two dimensions, length, and width. Length is the longer side of the rectangle and width is the shorter side.</string>
+    <string name="rectangles_around_us">Rectangles Around Us</string>
+    <string name="rectangle_examples">Rectangle being the most common shape forms a part of our day to day life.  Some real-life examples of the rectangle are given below.</string>
+
+    <string name="properties_of_a_rectangle">Properties of a Rectangle</string>
+    <string name="introduction_to_properties">The properties of a rectangle are as given below:\n\n</string>
+    <string name="rectangle_properties">1- It is a flat and closed shape.\n\n2- It has 4 sides, 4 angles, and 4 corners (vertices). \n\n3- It has 2 dimensions, namely, length and width\n\nEvery angle of a rectangle measures 90°.\n\n4- Opposite sides are equal and parallel.\n\n5- It has 2 diagonals of equal length.</string>
+
+    <string name="calculations_title">Area and Perimeter of a Rectangle</string>
+    <string name="area_of_a_rectangle">Area of a Rectangle</string>
+    <string name="area_formula">The space occupied by a rectangle is termed as its area. The area of a rectangle can be calculated by finding the product of its length and width. So,\n\nArea of a rectangle = Length × Width</string>
+    <string name="perimeter_of_a_rectangle">Perimeter of a Rectangle</string>
+    <string name="perimeter_formula">The perimeter of a rectangle is the sum of the length of its four sides. Let’s find the formula for the perimeter of a rectangle.\n\nPerimeter of a rectangle = length + width + length + width \n\n                                       = 2 × length + 2 × width\n\n                                       = 2 (length + width)</string>
+
+    <string name="lets_go">LETS GO!</string>
+
+    <string name="Continue">Continue</string>
+    <string name="scroll_view_description">scrollable\n</string>
+    <string name="let_s_go_n_champions">lets go champions</string>
 </resources>
